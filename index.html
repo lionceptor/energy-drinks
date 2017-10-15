@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Energy Drinks</title>
+<body style="background-color:black;">
+<style>
+.bothImages
+{
+	position: relative;
+	width: 25%;
+	float: left;
+}
+
+.imageClass
+{
+	display: inline;
+	width: 100%;
+	height: auto;
+}
+
+.drinkName
+{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+	opacity: 0.9;
+}
+
+.bothImages:hover 
+.drinkName
+{
+	height: 100%;
+}
+
+.text 
+{
+	white-space: nowrap; 
+	color: white;
+	font-size: 35px;
+	font-family: "Impact", Charcoal, sans-serif;
+	position: absolute;
+	overflow: hidden;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+.helFont
+{
+	font-family: "Arial", Helvetica, sans-serif;
+	color: white;
+}
+
+</style>
+</head>
+
+<body>
+
+<center>
+
+<h1><div class = "helFont">Energy Drink Round-Up</h1></div>
+<p><div class = "helFont">Click on a drink for information on each drink!</p></div>
+</center>
+
+<div class = "bothImages">
+	<img src = "monster.png" class = "imageClass">
+	<div class = "drinkName">
+		<div class = "text"><a href="./monster.html">Monster Energy</a></div>
+	</div>
+</div>
+
+<div class = "bothImages">
+	<img src = "nos.jpg" class = "imageClass">
+	<div class = "drinkName">
+		<div class = "text"><a href="./nos.html">NOS Energy</a></div>
+	</div>
+</div>
+
+<div class = "bothImages">
+	<img src = "red bull.png" class = "imageClass">
+	<div class = "drinkName">
+		<div class = "text"><a href="./redBull.html">Red Bull Energy</a></div>
+	</div>
+</div>
+
+<div class = "bothImages">
+	<img src = "5hour.png" class = "imageClass">
+	<div class = "drinkName">
+		<div class = "text"><a href="./5hour.html">5 Hour Energy</a></div>
+	</div>
+</div>
+
+</body>
+</html>
