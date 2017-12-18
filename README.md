@@ -7,4 +7,4 @@ Transparent background on images to allow for any background color.
 
 Ironically did not drink any energy drinks during the making of this.
 
-new effects!
+expanded from typewriter effect on w3schools
